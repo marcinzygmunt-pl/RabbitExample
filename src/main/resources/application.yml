@@ -1,0 +1,17 @@
+pl.marcinzygmunt:
+ rabbit:
+  server-address: localhost
+  server-user: rabbitmq
+  server-password: rabbitmq
+  alfa-queue-name: alfa
+  alfa-routing-key: alfa.one
+
+  beta-queue-name: beta
+  beta-routing-key: beta.two
+
+  charlie-queue-name: charlie
+  charlie-routing-key: "*.one" ##Words must be separated by dots - wildcards: * one word, #any number of words
+
+  direct-exchange-name: direct-exchange
+  fanout-exchange-name: fanout-exchange
+  topic-exchange-name: topic-exchange
