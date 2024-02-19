@@ -1,4 +1,4 @@
-# Sample Rabbit MQ
+# Sample SpringBoot application with Rabbit MQ
 
 Sample project with SpringBoot and RabbitMQ with Direct, Topic and Fanout Exchanges.
 
